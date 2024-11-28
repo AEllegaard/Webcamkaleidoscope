@@ -7,7 +7,7 @@ let palette = [
 let segments = 6; // Number of kaleidoscope segments
 
 function setup() {
-  createCanvas(1080,1080);
+  createCanvas(1024,1024);
   capture = createCapture(VIDEO); // Access webcam
   capture.size(width / pixelSize, height / pixelSize); // Set resolution to low for pixelation
   capture.hide(); // Hide the default video element
